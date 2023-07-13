@@ -47,6 +47,7 @@ const NavItem = ({ item }) => {
               {item.items.map((page) => (
                 <a
                   href="/"
+                  key={page}
                   className="hover:bg-dark-soft lg:hover:bg-dark-hard hover:text-orange-500 px-4 py-2 text-secondary lg:text-orange-500 "
                 >
                   {page}
@@ -69,7 +70,7 @@ const Header = () => {
   };
   return (
     <>
-      <section className="sticky top-0 left-0 right-0 z-50">
+      <section className="sticky top-0 left-0 right-0 z-50 shadow-[0_8px_30px_rgb(0,0,0,0.12)] bg-white">
         <header className="container mx-auto px-5 flex justify-between py-2 items-center">
           <div className="">
             <img className="w-16" src={images.Logo} alt="logo" />
