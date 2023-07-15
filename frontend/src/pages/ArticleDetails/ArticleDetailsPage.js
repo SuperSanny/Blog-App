@@ -80,7 +80,11 @@ const ArticleDetailsPage = () => {
             header="Latest Article"
             posts={postsData}
             tags={tagsData}
+<<<<<<< HEAD
             className="mt-8 lg:mt-0 lg:max-w-xs"
+=======
+            className="mt-8 lg:mt-0 lg:max-w-xs lg:text-primary"
+>>>>>>> sanny-dev
           />
         </section>
       </MainLayout>
