@@ -36,7 +36,7 @@ const Hero = () => (
           <span className="text-dark-light font-semibold italic mt-2 lg:mt-4 lg:text-sm xl:text-base">
             Popular Tags:
           </span>
-          <ul className="flex flex-wrap gap-x-2.5 gap-y-2.5 mt-3 lg:text-sm xl:text-base">
+          <ul className="flex flex-wrap gap-x-2.5 gap-y-2.5 mt-3 lg:text-sm xl:text-base cursor-pointer">
             <li className="rounded-lg bg-tertiary bg-opacity-10 px-3 py-1.5 text-primary font-semibold">
               Design
             </li>

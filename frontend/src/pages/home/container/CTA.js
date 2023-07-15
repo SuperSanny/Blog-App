@@ -22,13 +22,13 @@ const CTA = () => {
       <section className="relative bg-tertiary px-5">
         <div className="container grid grid-cols-12 mx-auto py-10 md:pb-20 lg:place-items-center">
           <div className="col-span-12 lg:col-span-6">
-            <h2 className="text-white font-bold text-2xl md:text-4xl md:text-center md:leading-normal lg:text-left ">
+            <h2 className="text-white font-roboto font-bold text-2xl md:text-4xl md:text-center md:leading-normal lg:text-left ">
               Get our stories delivered From us to your inbox weekly.
             </h2>
             <div className="w-full max-w-[494px] mt-12 space-y-3 mx-auto md:space-y-0 md:flex md:items-center md:space-x-2 lg:mx-0 ">
               <input
                 type="text"
-                className="px-4 py-3 rounded-lg w-full placeholder:text-dark-light"
+                className="px-4 py-3 rounded-lg w-full placeholder:text-dark-light focus:outline-none shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] text-dark-hard font-semibold"
                 placeholder="Your Email"
               />
               <button className="px-4 py-3 rounded-lg w-full bg-primary text-white font-bold md:w-fit md:whitespace-nowrap">
